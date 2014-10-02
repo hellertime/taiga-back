@@ -67,8 +67,8 @@ LOGIN_URL="/auth/login/"
 USE_TZ = True
 
 SITES = {
-    "api": {"domain": "localhost:8000", "scheme": "http", "name": "api"},
-    "front": {"domain": "localhost:9001", "scheme": "http", "name": "front"},
+    "front": {"domain": "localhost:8000", "scheme": "http", "name": "front"},
+    "api": {"domain": "localhost:9001", "scheme": "http", "name": "api"},
 }
 
 SITE_ID = "api"
